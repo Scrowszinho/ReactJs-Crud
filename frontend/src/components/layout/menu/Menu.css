@@ -1,0 +1,24 @@
+.Menu{
+    display: flex;
+    flex:1;
+    background-color: var(--bg-dark);
+    max-width: 190px;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.Menu ul a{
+display: block;
+text-decoration: none;
+color: #fff;
+padding: 15px;
+width:190px;
+}
+
+.Menu ul{
+    list-style-type: none;
+}
+
+.Menu a:hover{
+    background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+}
