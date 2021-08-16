@@ -1,0 +1,28 @@
+.Header{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    max-height:100px;
+    align-items: center;
+    color: var(--bg-dark);
+    box-shadow: var(--shadow);
+}
+.Header img{
+height: 100px;
+
+}
+
+.Header h1{
+    font-size: 2rem;
+}
+.Header h2{
+    font-size: 1.5rem;
+}
+
+.Header .HeaderLogo{
+    background-color: var(--bg-dark);
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
