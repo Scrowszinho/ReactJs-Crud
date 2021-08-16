@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from './Header';
 import './Main.css';
+import Menu from './menu/Menu';
 
-export default props => 
-    <React.Fragment>
-        <Header {...props} />
+export default props =>
+    <div className='MainContainer'>
+        <Menu {...props} />
         <main className='Content'>
-            Main
+            <div>
+                {props.children}
+            </div>
         </main>
-    </React.Fragment>
+    </div>

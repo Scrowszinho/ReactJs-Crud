@@ -1,0 +1,16 @@
+.MainContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.MainContainer .Content{
+    flex: 1;
+    padding: 20px;
+}
+
+main > div{
+    box-shadow: 0px 0px 15px #0004;
+    background-color: #fff;
+    padding: 20px;
+}
