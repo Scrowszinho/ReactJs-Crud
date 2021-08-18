@@ -1,21 +1,21 @@
 import React from 'react';
 import './Menu.css';
 import 'font-awesome/css/font-awesome.min.css';
-
+import { Link } from 'react-router-dom';
 export default props =>
     <aside className='Menu'>
         <ul>
-            <a href="/">
+            <Link to="/">
                 <li>
                     <i className='fa fa-home'></i>
                       Home
                 </li>
-            </a>
-            <a href="#users">
+            </Link>
+            <Link to="users">
                 <li>
-                    <i className="fa fa-user"></i>
+                    <i className="fa fa-users"></i> 
                      Users
                 </li>
-            </a>
+            </Link>
         </ul>
     </aside>
