@@ -1,0 +1,82 @@
+.Form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Form .Row{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.Form div:nth-child(3){
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.Form .form-control{
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: #F1F1F1;
+    border-radius: 2px;
+}
+
+.Form button{
+    background-color: #58EC29;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.Form button:hover{
+    background-color: #4ed326;
+}
+
+.Form button:nth-child(2){
+    background-color: #CC434D;
+    margin-left: 20px;
+}
+
+
+.Form button:nth-child(2):hover{
+    background-color: #b33b43;
+}
+
+
+table{
+    margin-top: 20px;
+    width: 100%;
+
+}
+tbody, thead{
+    flex:1;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+.tableButton{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.tableButton.edit{
+    background-color: #F7C146;
+
+}
+
+.tableButton.trash{
+    background-color: #fa8231;
+    margin-left: 5px;
+
+}
