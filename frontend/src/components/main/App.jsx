@@ -1,21 +1,15 @@
 import React from 'react';
-import Footer from '../layout/footer/Footer';
-import Header from '../layout/header/Header';
-import Main from '../layout/Main';
 import './App.css';
+import {HashRouter} from 'react-router-dom';
+import Routes from './Routes';
 
 function App(props){
     return(
+        <HashRouter>
         <div className='App'>
-            <Header title={'Home'} subTitle={'Test subtitle'}/>
-            <Main>
-                <h1>Welcome</h1>
-                <hr />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Necessitatibus provident at nihil molestiae temporibus illum consectetur deleniti doloribus magni ex est rem,
-                     reprehenderit doloremque, totam ipsum praesentium ut a voluptatibus.</p>
-            </Main>
+            <Routes />
         </div>
+        </HashRouter>
     );
 }
 
